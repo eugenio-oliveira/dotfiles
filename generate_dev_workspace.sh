@@ -11,7 +11,7 @@ cd $HOME/Documents && echo "the folders will be generated inside of: " && pwd
 
 generate_folders(){
 
-	echo "Generating the default dev_workspace folder"
+	echo "Generating the default dev_workspace folder..."
 	sleep 1
 	if [[ -d dev_workspace ]]; then
 		echo "Uops, Directory already exists..."
