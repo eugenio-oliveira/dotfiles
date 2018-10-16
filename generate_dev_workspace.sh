@@ -14,7 +14,7 @@ generate_folders(){
 	echo "Generating the default dev_workspace folder..."
 	sleep 1
 	if [[ -d dev_workspace ]]; then
-		echo "Uops, Directory already exists..."
+		echo "Uops, this folder already exists..."
 		exit;
 	fi
 
